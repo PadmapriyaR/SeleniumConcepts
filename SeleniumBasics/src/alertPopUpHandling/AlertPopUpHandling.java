@@ -26,7 +26,7 @@ public class AlertPopUpHandling {
 		Alert alert = driver.switchTo().alert();
 		System.out.println(alert.getText());
 		alert.accept();
-		
+			
 		//Handling window popup
 		driver.get("https://html.com/input-type-file/");
 		driver.findElement(By.name("fileupload")).sendKeys("D:\\imp.txt");
